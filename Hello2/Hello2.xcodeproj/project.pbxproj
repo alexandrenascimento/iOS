@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC89D97613C8AC0A00147C56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC89D97513C8AC0A00147C56 /* UIKit.framework */; };
+		AC89D97813C8AC0A00147C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC89D97713C8AC0A00147C56 /* Foundation.framework */; };
+		AC89D97A13C8AC0A00147C56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC89D97913C8AC0A00147C56 /* CoreGraphics.framework */; };
+		AC89D98013C8AC0A00147C56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC89D97E13C8AC0A00147C56 /* InfoPlist.strings */; };
+		AC89D98313C8AC0A00147C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89D98213C8AC0A00147C56 /* main.m */; };
+		AC89D98613C8AC0A00147C56 /* Hello2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89D98513C8AC0A00147C56 /* Hello2AppDelegate.m */; };
+		AC89D98913C8AC0A00147C56 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC89D98713C8AC0A00147C56 /* MainWindow.xib */; };
+		AC89D98C13C8AC0A00147C56 /* Hello2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89D98B13C8AC0A00147C56 /* Hello2ViewController.m */; };
+		AC89D98F13C8AC0A00147C56 /* Hello2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC89D98D13C8AC0A00147C56 /* Hello2ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC89D97113C8AC0A00147C56 /* Hello2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC89D97513C8AC0A00147C56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC89D97713C8AC0A00147C56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC89D97913C8AC0A00147C56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC89D97D13C8AC0A00147C56 /* Hello2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello2-Info.plist"; sourceTree = "<group>"; };
+		AC89D97F13C8AC0A00147C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC89D98113C8AC0A00147C56 /* Hello2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello2-Prefix.pch"; sourceTree = "<group>"; };
+		AC89D98213C8AC0A00147C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC89D98413C8AC0A00147C56 /* Hello2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello2AppDelegate.h; sourceTree = "<group>"; };
+		AC89D98513C8AC0A00147C56 /* Hello2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello2AppDelegate.m; sourceTree = "<group>"; };
+		AC89D98813C8AC0A00147C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AC89D98A13C8AC0A00147C56 /* Hello2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello2ViewController.h; sourceTree = "<group>"; };
+		AC89D98B13C8AC0A00147C56 /* Hello2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello2ViewController.m; sourceTree = "<group>"; };
+		AC89D98E13C8AC0A00147C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Hello2ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC89D96E13C8AC0A00147C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC89D97613C8AC0A00147C56 /* UIKit.framework in Frameworks */,
+				AC89D97813C8AC0A00147C56 /* Foundation.framework in Frameworks */,
+				AC89D97A13C8AC0A00147C56 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC89D96613C8AC0A00147C56 = {
+			isa = PBXGroup;
+			children = (
+				AC89D97B13C8AC0A00147C56 /* Hello2 */,
+				AC89D97413C8AC0A00147C56 /* Frameworks */,
+				AC89D97213C8AC0A00147C56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC89D97213C8AC0A00147C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC89D97113C8AC0A00147C56 /* Hello2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC89D97413C8AC0A00147C56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC89D97513C8AC0A00147C56 /* UIKit.framework */,
+				AC89D97713C8AC0A00147C56 /* Foundation.framework */,
+				AC89D97913C8AC0A00147C56 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC89D97B13C8AC0A00147C56 /* Hello2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC89D98413C8AC0A00147C56 /* Hello2AppDelegate.h */,
+				AC89D98513C8AC0A00147C56 /* Hello2AppDelegate.m */,
+				AC89D98713C8AC0A00147C56 /* MainWindow.xib */,
+				AC89D99513C8AC5000147C56 /* TelaInicial */,
+				AC89D97C13C8AC0A00147C56 /* Supporting Files */,
+			);
+			path = Hello2;
+			sourceTree = "<group>";
+		};
+		AC89D97C13C8AC0A00147C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC89D97D13C8AC0A00147C56 /* Hello2-Info.plist */,
+				AC89D97E13C8AC0A00147C56 /* InfoPlist.strings */,
+				AC89D98113C8AC0A00147C56 /* Hello2-Prefix.pch */,
+				AC89D98213C8AC0A00147C56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC89D99513C8AC5000147C56 /* TelaInicial */ = {
+			isa = PBXGroup;
+			children = (
+				AC89D98A13C8AC0A00147C56 /* Hello2ViewController.h */,
+				AC89D98B13C8AC0A00147C56 /* Hello2ViewController.m */,
+				AC89D98D13C8AC0A00147C56 /* Hello2ViewController.xib */,
+			);
+			name = TelaInicial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC89D97013C8AC0A00147C56 /* Hello2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC89D99213C8AC0A00147C56 /* Build configuration list for PBXNativeTarget "Hello2" */;
+			buildPhases = (
+				AC89D96D13C8AC0A00147C56 /* Sources */,
+				AC89D96E13C8AC0A00147C56 /* Frameworks */,
+				AC89D96F13C8AC0A00147C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hello2;
+			productName = Hello2;
+			productReference = AC89D97113C8AC0A00147C56 /* Hello2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC89D96813C8AC0A00147C56 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AC89D96B13C8AC0A00147C56 /* Build configuration list for PBXProject "Hello2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC89D96613C8AC0A00147C56;
+			productRefGroup = AC89D97213C8AC0A00147C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC89D97013C8AC0A00147C56 /* Hello2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC89D96F13C8AC0A00147C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC89D98013C8AC0A00147C56 /* InfoPlist.strings in Resources */,
+				AC89D98913C8AC0A00147C56 /* MainWindow.xib in Resources */,
+				AC89D98F13C8AC0A00147C56 /* Hello2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC89D96D13C8AC0A00147C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC89D98313C8AC0A00147C56 /* main.m in Sources */,
+				AC89D98613C8AC0A00147C56 /* Hello2AppDelegate.m in Sources */,
+				AC89D98C13C8AC0A00147C56 /* Hello2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC89D97E13C8AC0A00147C56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC89D97F13C8AC0A00147C56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC89D98713C8AC0A00147C56 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC89D98813C8AC0A00147C56 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AC89D98D13C8AC0A00147C56 /* Hello2ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC89D98E13C8AC0A00147C56 /* en */,
+			);
+			name = Hello2ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC89D99013C8AC0A00147C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC89D99113C8AC0A00147C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AC89D99313C8AC0A00147C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello2/Hello2-Prefix.pch";
+				INFOPLIST_FILE = "Hello2/Hello2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC89D99413C8AC0A00147C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello2/Hello2-Prefix.pch";
+				INFOPLIST_FILE = "Hello2/Hello2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC89D96B13C8AC0A00147C56 /* Build configuration list for PBXProject "Hello2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC89D99013C8AC0A00147C56 /* Debug */,
+				AC89D99113C8AC0A00147C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC89D99213C8AC0A00147C56 /* Build configuration list for PBXNativeTarget "Hello2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC89D99313C8AC0A00147C56 /* Debug */,
+				AC89D99413C8AC0A00147C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC89D96813C8AC0A00147C56 /* Project object */;
+}
