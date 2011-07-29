@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC19358A13CA1B3300E5B2BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC19358913CA1B3300E5B2BA /* UIKit.framework */; };
+		AC19358C13CA1B3300E5B2BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC19358B13CA1B3300E5B2BA /* Foundation.framework */; };
+		AC19358E13CA1B3300E5B2BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC19358D13CA1B3300E5B2BA /* CoreGraphics.framework */; };
+		AC19359413CA1B3300E5B2BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC19359213CA1B3300E5B2BA /* InfoPlist.strings */; };
+		AC19359713CA1B3300E5B2BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC19359613CA1B3300E5B2BA /* main.m */; };
+		AC19359A13CA1B3300E5B2BA /* TrocaTelaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC19359913CA1B3300E5B2BA /* TrocaTelaAppDelegate.m */; };
+		AC19359D13CA1B3300E5B2BA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC19359B13CA1B3300E5B2BA /* MainWindow.xib */; };
+		AC1935A013CA1B3300E5B2BA /* TrocaTelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC19359F13CA1B3300E5B2BA /* TrocaTelaViewController.m */; };
+		AC1935A313CA1B3300E5B2BA /* TrocaTelaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1935A113CA1B3300E5B2BA /* TrocaTelaViewController.xib */; };
+		AC1935AC13CA1B8500E5B2BA /* SegundaTelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1935AA13CA1B8500E5B2BA /* SegundaTelaViewController.m */; };
+		AC1935AD13CA1B8500E5B2BA /* SegundaTelaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1935AB13CA1B8500E5B2BA /* SegundaTelaViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC19358513CA1B3300E5B2BA /* TrocaTela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrocaTela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC19358913CA1B3300E5B2BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC19358B13CA1B3300E5B2BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC19358D13CA1B3300E5B2BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC19359113CA1B3300E5B2BA /* TrocaTela-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrocaTela-Info.plist"; sourceTree = "<group>"; };
+		AC19359313CA1B3300E5B2BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC19359513CA1B3300E5B2BA /* TrocaTela-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrocaTela-Prefix.pch"; sourceTree = "<group>"; };
+		AC19359613CA1B3300E5B2BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC19359813CA1B3300E5B2BA /* TrocaTelaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrocaTelaAppDelegate.h; sourceTree = "<group>"; };
+		AC19359913CA1B3300E5B2BA /* TrocaTelaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrocaTelaAppDelegate.m; sourceTree = "<group>"; };
+		AC19359C13CA1B3300E5B2BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AC19359E13CA1B3300E5B2BA /* TrocaTelaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrocaTelaViewController.h; sourceTree = "<group>"; };
+		AC19359F13CA1B3300E5B2BA /* TrocaTelaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrocaTelaViewController.m; sourceTree = "<group>"; };
+		AC1935A213CA1B3300E5B2BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrocaTelaViewController.xib; sourceTree = "<group>"; };
+		AC1935A913CA1B8500E5B2BA /* SegundaTelaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SegundaTelaViewController.h; path = ../SegundaTelaViewController.h; sourceTree = "<group>"; };
+		AC1935AA13CA1B8500E5B2BA /* SegundaTelaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SegundaTelaViewController.m; path = ../SegundaTelaViewController.m; sourceTree = "<group>"; };
+		AC1935AB13CA1B8500E5B2BA /* SegundaTelaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SegundaTelaViewController.xib; path = ../SegundaTelaViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC19358213CA1B3300E5B2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC19358A13CA1B3300E5B2BA /* UIKit.framework in Frameworks */,
+				AC19358C13CA1B3300E5B2BA /* Foundation.framework in Frameworks */,
+				AC19358E13CA1B3300E5B2BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC19357A13CA1B3300E5B2BA = {
+			isa = PBXGroup;
+			children = (
+				AC19358F13CA1B3300E5B2BA /* TrocaTela */,
+				AC19358813CA1B3300E5B2BA /* Frameworks */,
+				AC19358613CA1B3300E5B2BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC19358613CA1B3300E5B2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC19358513CA1B3300E5B2BA /* TrocaTela.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC19358813CA1B3300E5B2BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC19358913CA1B3300E5B2BA /* UIKit.framework */,
+				AC19358B13CA1B3300E5B2BA /* Foundation.framework */,
+				AC19358D13CA1B3300E5B2BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC19358F13CA1B3300E5B2BA /* TrocaTela */ = {
+			isa = PBXGroup;
+			children = (
+				AC19359813CA1B3300E5B2BA /* TrocaTelaAppDelegate.h */,
+				AC19359913CA1B3300E5B2BA /* TrocaTelaAppDelegate.m */,
+				AC19359B13CA1B3300E5B2BA /* MainWindow.xib */,
+				AC19359E13CA1B3300E5B2BA /* TrocaTelaViewController.h */,
+				AC19359F13CA1B3300E5B2BA /* TrocaTelaViewController.m */,
+				AC1935A113CA1B3300E5B2BA /* TrocaTelaViewController.xib */,
+				AC1935A913CA1B8500E5B2BA /* SegundaTelaViewController.h */,
+				AC1935AA13CA1B8500E5B2BA /* SegundaTelaViewController.m */,
+				AC1935AB13CA1B8500E5B2BA /* SegundaTelaViewController.xib */,
+				AC19359013CA1B3300E5B2BA /* Supporting Files */,
+			);
+			path = TrocaTela;
+			sourceTree = "<group>";
+		};
+		AC19359013CA1B3300E5B2BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC19359113CA1B3300E5B2BA /* TrocaTela-Info.plist */,
+				AC19359213CA1B3300E5B2BA /* InfoPlist.strings */,
+				AC19359513CA1B3300E5B2BA /* TrocaTela-Prefix.pch */,
+				AC19359613CA1B3300E5B2BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC19358413CA1B3300E5B2BA /* TrocaTela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1935A613CA1B3300E5B2BA /* Build configuration list for PBXNativeTarget "TrocaTela" */;
+			buildPhases = (
+				AC19358113CA1B3300E5B2BA /* Sources */,
+				AC19358213CA1B3300E5B2BA /* Frameworks */,
+				AC19358313CA1B3300E5B2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrocaTela;
+			productName = TrocaTela;
+			productReference = AC19358513CA1B3300E5B2BA /* TrocaTela.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC19357C13CA1B3300E5B2BA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AC19357F13CA1B3300E5B2BA /* Build configuration list for PBXProject "TrocaTela" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC19357A13CA1B3300E5B2BA;
+			productRefGroup = AC19358613CA1B3300E5B2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC19358413CA1B3300E5B2BA /* TrocaTela */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC19358313CA1B3300E5B2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC19359413CA1B3300E5B2BA /* InfoPlist.strings in Resources */,
+				AC19359D13CA1B3300E5B2BA /* MainWindow.xib in Resources */,
+				AC1935A313CA1B3300E5B2BA /* TrocaTelaViewController.xib in Resources */,
+				AC1935AD13CA1B8500E5B2BA /* SegundaTelaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC19358113CA1B3300E5B2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC19359713CA1B3300E5B2BA /* main.m in Sources */,
+				AC19359A13CA1B3300E5B2BA /* TrocaTelaAppDelegate.m in Sources */,
+				AC1935A013CA1B3300E5B2BA /* TrocaTelaViewController.m in Sources */,
+				AC1935AC13CA1B8500E5B2BA /* SegundaTelaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC19359213CA1B3300E5B2BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC19359313CA1B3300E5B2BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC19359B13CA1B3300E5B2BA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC19359C13CA1B3300E5B2BA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AC1935A113CA1B3300E5B2BA /* TrocaTelaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1935A213CA1B3300E5B2BA /* en */,
+			);
+			name = TrocaTelaViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC1935A413CA1B3300E5B2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC1935A513CA1B3300E5B2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AC1935A713CA1B3300E5B2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrocaTela/TrocaTela-Prefix.pch";
+				INFOPLIST_FILE = "TrocaTela/TrocaTela-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC1935A813CA1B3300E5B2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrocaTela/TrocaTela-Prefix.pch";
+				INFOPLIST_FILE = "TrocaTela/TrocaTela-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC19357F13CA1B3300E5B2BA /* Build configuration list for PBXProject "TrocaTela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1935A413CA1B3300E5B2BA /* Debug */,
+				AC1935A513CA1B3300E5B2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1935A613CA1B3300E5B2BA /* Build configuration list for PBXNativeTarget "TrocaTela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1935A713CA1B3300E5B2BA /* Debug */,
+				AC1935A813CA1B3300E5B2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC19357C13CA1B3300E5B2BA /* Project object */;
+}
